@@ -1,1 +1,88 @@
-<h1>Shop Coming Soon</h1>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Noventra Pet Shop</title>
+
+<style>
+body{
+    font-family:Arial,sans-serif;
+    margin:0;
+    background:#f5f5f5;
+}
+
+header{
+    background:#222;
+    color:white;
+    padding:20px;
+    text-align:center;
+}
+
+.products{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:20px;
+    padding:30px;
+}
+
+.card{
+    background:white;
+    border-radius:12px;
+    padding:15px;
+    text-align:center;
+    box-shadow:0 3px 10px rgba(0,0,0,.1);
+}
+
+.card img{
+    width:100%;
+    border-radius:10px;
+}
+
+button{
+    background:#0077ff;
+    color:white;
+    border:none;
+    padding:10px 20px;
+    border-radius:25px;
+    cursor:pointer;
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+<h1>Noventra Pet Shop</h1>
+<p>Products for happy pets 🐶🐱</p>
+</header>
+
+<section class="products">
+
+<div class="card">
+<img src="https://picsum.photos/300/220?dog" alt="Dog Toy">
+<h3>Dog Toy</h3>
+<p>£14.99</p>
+<button>Add to Cart</button>
+</div>
+
+<div class="card">
+<img src="https://picsum.photos/300/220?cat" alt="Cat Bed">
+<h3>Cat Bed</h3>
+<p>£29.99</p>
+<button>Add to Cart</button>
+</div>
+
+<div class="card">
+<img src="https://picsum.photos/300/220?pet" alt="Water Fountain">
+<h3>Pet Water Fountain</h3>
+<p>£24.99</p>
+<button>Add to Cart</button>
+</div>
+
+</section>
+
+</body>
+</html>
